@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehndi Art by Priya | Professional Henna Artist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Mehndi<span>ByAsawari</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="btn">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Creating Beautiful Mehndi for Your Special Moments</h1>
+            <p>Traditional & Contemporary Henna Designs</p>
+            <a href="#contact" class="btn">Book Your Session</a>
+        </div>
+        <div class="pattern-overlay"></div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="floral-divider">
+                    <i class="fas fa-spa"></i>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Hello! I'm Asawari</h3>
+                    <p>I am a passionate mehendi artist with over 3+ years of experience and the joy of serving 500+ happy clients. For me, mehendi is not just an art—it's a beautiful tradition that tells a story through intricate patterns and graceful designs.</p>
+                    <p>I specialize in bridal mehendi, Arabic, traditional, floral, and modern fusion designs, always focusing on fine detailing and neat finishing. Every design is customized according to the client's preferences, outfit, and occasion, ensuring a unique and personal touch every time.</p>
+                    <div class="skills">
+                        <h4>My Expertise:</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Bridal Mehendi</li>
+                            <li><i class="fas fa-check"></i> Arabic Designs</li>
+                            <li><i class="fas fa-check"></i> Traditional Indian Patterns</li>
+                            <li><i class="fas fa-check"></i> Floral & Modern Fusion</li>
+                            <li><i class="fas fa-check"></i> Custom Designs for Every Occasion</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/artist-image.jpeg" alt="Mehndi Artist Asawari">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Services</h2>
+                <div class="floral-divider">
+                    <i class="fas fa-spa"></i>
+                </div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Bridal Mehndi</h3>
+                    <p>Exquisite and intricate designs for the bride's special day, featuring personalized elements and traditional motifs.</p>
+                    <a href="#contact" class="btn-outline">Inquire Now</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Wedding & Engagement</h3>
+                    <p>Beautiful designs for all wedding events - Sangeet, Mehendi, and Haldi ceremonies.</p>
+                    <a href="#contact" class="btn-outline">Inquire Now</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Festival Mehndi</h3>
+                    <p>Traditional designs perfect for Karva Chauth, Diwali, Eid, and other festive occasions.</p>
+                    <a href="#contact" class="btn-outline">Inquire Now</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Custom Designs</h3>
+                    <p>Personalized mehndi designs tailored to your preferences and special requirements.</p>
+                    <a href="#contact" class="btn-outline">Inquire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Work</h2>
+                <div class="floral-divider">
+                    <i class="fas fa-spa"></i>
+                </div>
+            </div>
+            <div class="gallery-grid">
+                <!-- Gallery items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <div class="floral-divider">
+                    <i class="fas fa-spa"></i>
+                </div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Asawari's mehndi work for my wedding was absolutely stunning! She captured exactly what I wanted and the design was flawless. Highly recommended!"</p>
+                        <div class="client-info">
+                            <h4>Ananya Sharma</h4>
+                            <span>Bride</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The mehndi for my sister's wedding was done by Asawari and it was the talk of the event! Beautiful designs and she's so professional."</p>
+                        <div class="client-info">
+                            <h4>Rahul Verma</h4>
+                            <span>Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>"I've been getting mehndi from Asawari for all festivals. Her designs are unique and last longer than any other artist I've been to."</p>
+                        <div class="client-info">
+                            <h4>Priya Patel</h4>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="dots"></div>
+                <button class="next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Session</h2>
+                <div class="floral-divider">
+                    <i class="fas fa-spa"></i>
+                </div>
+                <p>Ready to book your mehndi session or have questions? Fill out the form below or contact me directly.</p>
+            </div>
+            <div class="contact-container">
+                <form id="bookingForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="bridal">Bridal Mehndi</option>
+                            <option value="wedding">Wedding/Engagement</option>
+                            <option value="festival">Festival Mehndi</option>
+                            <option value="custom">Custom Design</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your event and any specific design ideas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Call Me</h4>
+                            <p>+91 9730573247</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+91 9730573247</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/mehendi_by_asawarii?igsh=MTc3dXA2ejE5aXhocw==" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>MehndiByAsawari</h3>
+                    <p>Creating beautiful mehndi designs for your special occasions.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Nagpur, India</p>
+                    <p><i class="fas fa-phone"></i> +91 9730573247</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> MehndiByAsawari. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/mehendi_by_asawarii?igsh=MTc3dXA2ejE5aXhocw==" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
